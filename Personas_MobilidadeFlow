@@ -1,0 +1,65 @@
+# Personas — MobilidadeFlow
+
+## Beatriz, a estudante que não pode perder a aula por causa da carteirinha
+
+**Nome e título representativo:** Beatriz, a estudante que não pode perder a aula por causa da carteirinha
+
+**Nome descritivo:** Estudante de Ensino Médio/Técnico/Superior — Usuária de Carteirinha Estudantil
+
+**Dados contextuais:** Idade aproximada: 16–24. Ocupação: estudante. Contexto de uso: depende do transporte público todos os dias para chegar à instituição de ensino, muitas vezes com pouco tempo entre um compromisso e outro (aula, estágio, trabalho parcial). Ambiente digital: smartphone como ferramenta principal; usa Pix e apps de pagamento, redes sociais e aplicativos de transporte no dia a dia.
+
+**Dores e frustrações:** Sente ansiedade e atraso quando esquece ou perde a carteirinha física em casa e fica barrada na catraca; não sabe o saldo exato antes de embarcar; enfrenta filas para resolver problemas com o cartão; lida com burocracia e taxa para emitir 2ª via em caso de perda ou roubo; preocupa-se com a segurança dos dados e a possibilidade de clonagem do cartão físico.
+
+**Motivações e ganhos:** Embarcar rápido sem depender de carregar o cartão físico; acompanhar o saldo em tempo real pelo celular; ter a segurança de bloquear o benefício remotamente caso perca o celular; recarregar sem precisar ir a um posto físico; reunir carteirinha, saldo e histórico de viagens em um único app.
+
+**Contexto de uso:** Usa o app diariamente para validar o embarque por NFC ou QR Code, conferir o saldo antes de sair de casa, recarregar via Pix quando está baixo e receber notificações de saldo baixo ou pendências. Em caso de perda do celular, aciona o bloqueio remoto para proteger o benefício.
+
+**Canais e ferramentas:** App mobile (NFC/QR Code); notificações push; Pix e cartão para recarga; validação nos terminais e catracas do transporte público; contato com a secretaria da instituição em casos administrativos.
+
+**Importância estratégica:** Principal
+
+**Frase representativa:** *"Eu só quero embarcar sem ficar procurando o cartão na mochila."*
+
+---
+
+## Marcos, o trabalhador que não pode chegar atrasado por causa do vale-transporte
+
+**Nome e título representativo:** Marcos, o trabalhador que não pode chegar atrasado por causa do vale-transporte
+
+**Nome descritivo:** Trabalhador(a) CLT — Usuário(a) de Vale-Transporte
+
+**Dados contextuais:** Idade aproximada: 25–50. Profissão: empregado(a) CLT, setores diversos. Contexto de uso: depende do vale-transporte fornecido pela empresa para o deslocamento diário casa–trabalho, muitas vezes com integração entre mais de uma linha. Ambiente digital: smartphone Android como principal dispositivo; pouca paciência para processos administrativos longos; prioriza rapidez no dia a dia.
+
+**Dores e frustrações:** Fica impedido de embarcar quando o cartão de VT é esquecido, danificado ou não é reconhecido na catraca; não tem visibilidade clara sobre quando a empresa libera o crédito mensal; enfrenta filas e burocracia para resolver problemas com o cartão físico; sente insegurança em carregar um cartão físico com risco de furto.
+
+**Motivações e ganhos:** Ter o benefício sempre disponível no celular, sem depender de um cartão físico; ser avisado assim que a empresa libera o crédito do mês; agilidade na catraca em horário de pico; segurança de poder bloquear o benefício em caso de perda do celular.
+
+**Contexto de uso:** Usa o app para embarcar diariamente (ida e volta ao trabalho), consulta o extrato de viagens e recargas para conferir o uso do benefício, e recebe notificação quando a empresa libera o vale-transporte do mês.
+
+**Canais e ferramentas:** App mobile; notificações push; validação por NFC/QR Code nos coletivos; contato com o RH da empresa em caso de dúvidas sobre o benefício.
+
+**Importância estratégica:** Principal
+
+**Frase representativa:** *"Não posso perder o ônibus por causa de um cartão que não passou na catraca."*
+
+---
+
+## Fernanda, a gestora de RH que não quer mais lidar com cartão perdido
+
+**Nome e título representativo:** Fernanda, a gestora de RH que não quer mais lidar com cartão perdido
+
+**Nome descritivo:** Gestora de Benefícios de Transporte (RH de Empresa / Secretaria de Instituição de Ensino)
+
+**Dados contextuais:** Idade aproximada: 30–50. Profissão: analista/gestora de RH ou coordenadora administrativa de instituição de ensino. Contexto de uso: responsável por cadastrar, emitir e controlar benefícios de transporte de dezenas a milhares de pessoas; lida com pedidos de 2ª via e reclamações com frequência. Ambiente digital: trabalha principalmente em desktop, usa planilhas e sistemas internos; pouca tolerância a processos manuais demorados.
+
+**Dores e frustrações:** Recebe alto volume de solicitações de reemissão de cartões perdidos, roubados ou danificados; não tem visibilidade em tempo real sobre o uso dos benefícios; depende de processos manuais para cadastro, ativação e bloqueio de usuários; tem dificuldade de auditar gastos e identificar fraudes; lida com comunicação fragmentada entre sistemas de bilhetagem, folha de pagamento e sistemas acadêmicos.
+
+**Motivações e ganhos:** Reduzir custos e tempo com a emissão física de cartões; ter um painel único para cadastrar, suspender e bloquear benefícios remotamente; gerar relatórios de auditoria com poucos cliques; integrar o sistema à folha de pagamento (RH) ou ao sistema acadêmico; reduzir fraudes e reclamações recorrentes.
+
+**Contexto de uso:** Usa o painel web para cadastrar novos usuários, definir valores e regras de elegibilidade para recarga, acompanhar o dashboard de uso em tempo real, emitir relatórios e logs de auditoria, e gerenciar integrações com sistemas de RH ou acadêmicos.
+
+**Canais e ferramentas:** Painel web administrativo; dashboards e relatórios; integrações via API com folha de pagamento e sistemas acadêmicos; suporte da equipe MobilidadeFlow.
+
+**Importância estratégica:** Principal
+
+**Frase representativa:** *"Se alguém perde o cartão, eu preciso resolver isso em um clique, não em um processo de uma semana."*
