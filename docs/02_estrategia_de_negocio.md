@@ -46,7 +46,7 @@ O AccessFlow atende 3 segmentos primários, cada um representado por uma persona
 | **Gestores** | Auditar/Conciliar | Conciliação depende de planilhas manuais. | Dados separados da folha e do sistema acadêmico. |
 
 **Gatilhos para agir:**
-* *Estudantes:* Ficar retido na catraca, fila para 2ª via, perda do celular.
+* *Estudantes:* Ficar retido na catraca, fila para 2ª via.
 * *Trabalhadores:* Atraso por falha de leitura, cartão furtado.
 * *Gestores:* Aumento de chamados de reemissão, pressão por redução de custos.
 
