@@ -45,6 +45,8 @@ O AccessFlow atende 3 segmentos primários, cada um representado por uma persona
 | **Gestores** | Bloqueio imediato | Usuários desligados mantêm benefícios ativos. | Cadastro preso à operadora, sem controle direto do RH. |
 | **Gestores** | Auditar/Conciliar | Conciliação depende de planilhas manuais. | Dados separados da folha e do sistema acadêmico. |
 
+**Solução:** Uma plataforma mobile-first que transforma o celular no cartão de transporte, com validação por NFC e QR Code dinâmico offline, recarga digital (Pix/Cartão) e bloqueio remoto, integrada a um painel web B2B para gestão institucional e auditoria em tempo real.
+
 **Gatilhos para agir:**
 * *Estudantes:* Ficar retido na catraca, fila para 2ª via.
 * *Trabalhadores:* Atraso por falha de leitura, cartão furtado.
