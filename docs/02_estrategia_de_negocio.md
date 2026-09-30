@@ -127,11 +127,14 @@ O AccessFlow atende 2 segmentos primários, cada um representado por uma persona
 ## 🗺️ Roadmap Estratégico
 
 **Pilares Estratégicos:**
-1. Confiabilidade total na validação (NFC, QR Code dinâmico, Offline)[cite: 7].
-2. Um app substitui todos os cartões plásticos (estudantil, VT e avulso)[cite: 1, 7].
-3. Fim da fila: onboarding, recarga e validação rápidos[cite: 7].
-4. Gestão simples e centralizada para instituições, empresas e operadoras[cite: 1, 7].
-5. Validação constante com usuários reais[cite: 7].
+1. Confiabilidade de validação em tempo real (NFC, QR Code e modo offline) para reduzir falhas e desencontros na catraca
+2. Substituição do cartão físico por uma credencial digital inclusiva, que funcione com ou sem NFC no aparelho do usuário
+3. Conversão fim-a-fim (cadastro -> recarga -> validação) com foco em reduzir filas e atrito no embarque
+4. Regras e dados padronizados para instituições (empresas, escolas, operadoras) com gestão simples e rápida
+5. Retenção e confiança via alertas automáticos de saldo, extrato completo e bloqueio remoto em caso de roubo
+6. Go-to-market por parcerias institucionais e validação com usuários reais
+7. Monetização progressiva (licenciamento institucional + comissão sobre recargas + contratos com operadoras) sem prejudicar a adoção
+8. Ciclo contínuo de validação e aprendizado (pesquisa com usuários, testes de campo e loops de feedback com instituições)
 
 ### Fase 1: MVP da Credencial Digital (Cartão Virtual e Validação)
 * **Duração:** 6 a 8 semanas[cite: 7]
