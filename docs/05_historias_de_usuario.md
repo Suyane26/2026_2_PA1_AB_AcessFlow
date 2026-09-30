@@ -953,76 +953,38 @@ Então a catraca deve negar o acesso e exibir sinal sonoro/visual de credencial 
 Invalidação imediata de sessões JWT/OAuth do usuário e revogação do certificado HCE associado ao aparelho; 
 
 Envio de e-mail de alerta sobre o bloqueio realizado; registrar evento de analytics: cartao_bloqueado_remotamente. Id do passo: 120
+## 18. Lucas — Reemissão digital instantânea da credencial (Fim da 2ª Via Física)
 
-# 18. Lucas — Reemissão digital instantânea da credencial
-## Passo de Jornada
+**Passo de Jornada**
+* **Fase do Roadmap Estratégico:** Fase 2 — Recarga, Saldo e Segurança
+* **Jornada de Usuário:** Lucas — Perder o celular, bloquear o cartão virtual remotamente e conseguir uma reemissão digital
+* **Passo:** Solicitar a reemissão digital do cartão virtual
 
-Fase do Roadmap Estratégico: Fase 2 — Recarga, Saldo e Segurança   
+**Geral**
+* **Produto:** AccessFlow
+* **Título:** Reemissão digital de cartão virtual
+* **Narrativa:** Como Lucas, que foi furtado e perdeu o cartão físico de plástico, eu quero solicitar a reemissão digital instantânea do meu cartão virtual no novo aparelho. Preciso de recuperar o meu benefício imediatamente para não ter de enfrentar a espera de até 2 meses por uma segunda via física, tempo durante o qual seria obrigado a pagar o valor bruto (tarifa inteira) do próprio bolso todos os dias em vez de pagar a meia-passagem/tarifa com desconto.
+* **Prioridade:** Alta | **Tipo:** Feature | **Coluna:** Análise
 
-Jornada de Usuário: Lucas — Perder o celular, bloquear o cartão virtual remotamente e conseguir uma reemissão digital   
+**Detalhes**
+* **Descrição Detalhada:** Este fluxo resolve a dor financeira mais grave do utilizador: a perda do subsídio durante a espera pela segunda via. Ao ficar meses à espera de um novo cartão de plástico, o utilizador é forçado a pagar o valor normal (inteira) do seu bolso. O fluxo no novo dispositivo identifica a credencial bloqueada e permite a transferência do benefício para o novo aparelho de forma 100% digital, estancando o prejuízo financeiro e substituindo um processo de meses por uma ação de minutos.
+* **Orientações de Tela:** Tela de onboarding no novo celular a detetar "Possui uma credencial bloqueada"; Botão "Reemitir Cartão Digital"; Etapa de verificação de identidade via biometria/SMS/e-mail; Tela final com o novo cartão ativo e o saldo preservado.
+* **Regras de Negócio:** 1. Transferir integralmente o saldo remanescente e os benefícios ativos (direito à meia-passagem/VT) da credencial antiga para a nova; 2. Desvincular o ID do dispositivo (Hardware ID) anterior e registar o novo aparelho.
 
-Passo: Solicitar a reemissão digital do cartão virtual   
+**BDD & Implementação (Critérios de Aceitação)**
+* **Cenário 1: Reemissão com sucesso no novo celular**
+  **Dado** que realizei login no aplicativo num smartphone novo e possuo um cartão bloqueado
+  **Quando** confirmo a validação de segurança e solicito a reemissão
+  **Então** uma nova credencial digital deve ser gerada vinculada ao novo aparelho
+  **E** o direito ao benefício tarifário e o saldo anterior devem estar integralmente disponíveis no novo cartão
 
-## Geral
+* **Cenário 2: Tentativa de reemissão sem confirmação de segurança**
+  **Dado** que inicio o processo de reemissão no novo aparelho
+  **Quando** erro a verificação de segurança (código SMS/e-mail incorreto)
+  **Então** a reemissão não deve ser concluída
+  **E** a credencial deve permanecer no status "Bloqueado"
 
-Produto: AccessFlow   
-
-Título: Reemissão digital de cartão virtual
-
-Narrativa: Como Lucas, usuário que acabou de bloquear seu cartão após trocar de celular, eu quero solicitar a reemissão digital do meu cartão no novo aparelho, para recuperar meu saldo e benefícios sem ter que pagar taxa ou ir a um posto físico.
-
-Prioridade: Alta | Tipo: Feature | Coluna: Análise
-
-## Detalhes
-### Descrição Detalhada: 
-
-Fluxo dentro do aplicativo em um novo dispositivo que identifica a existência de um cartão bloqueado por perda/roubo e permite a transferência do saldo e do vínculo para o novo aparelho de forma 100% digital.
-
-### Orientações de Tela: 
-
-Tela de onboarding no novo celular detectando "Você possui uma credencial bloqueada"; 
-
-Botão "Reemitir Cartão Digital"; 
-
-Etapa de verificação de identidade via biometria/SMS/e-mail; 
-
-Tela final com novo cartão ativo e saldo preservado.
-
-### Regras de Negócio: 
-
-1. Transferir integralmente o saldo remanescente e os benefícios ativos da credencial antiga para a nova;
-2. Desvincular o ID do dispositivo (Hardware ID) anterior e registrar o novo aparelho.
-
-## BDD & Implementação
-### Critérios de Aceitação (BDD)
-
-Reemissão com sucesso no novo celular
-
-Dado que realizei login no aplicativo num smartphone novo e possuo um cartão bloqueado
-
-Quando confirmo a validação de segurança e solicito a reemissão
-
-Então uma nova credencial digital deve ser gerada vinculada ao novo aparelho
-
-E o saldo anterior total deve estar integralmente disponível no novo cartão
-
-Tentativa de reemissão sem confirmação de segurança
-
-Dado que inicio o processo de reemissão no novo aparelho
-
-Quando erro a verificação de segurança (código SMS/e-mail incorreto)
-
-Então a reemissão não deve ser concluída
-
-E a credencial deve permanecer no status "Bloqueado"
-
-### Orientações para Implementação: 
-
-Endpoint de provisionamento de nova credencial vinculada ao novo device_id; 
-
-Migração atômica de saldo no banco de dados; 
-
-Registrar evento de analytics: cartao_reemitido_digitalmente. Id do passo: 121
+* **Orientações para Implementação:** Endpoint de provisionamento de nova credencial vinculada ao novo device_id; Migração atómica de saldo no banco de dados; Registar evento de analytics: cartao_reemitido_digitalmente. Id do passo: 121
 
 # 19. Marcos — Visualizar Dashboard Institucional em tempo real
 ## Passo de Jornada
