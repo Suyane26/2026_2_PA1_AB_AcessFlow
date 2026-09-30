@@ -1,120 +1,184 @@
 # 🗺️ Jornadas dos Usuários
 
-## Jornada 1: Cynthia (Fase 1 - MVP da Credencial Digital)
-**Objetivo:** Substituir a carteirinha física pelo cartão virtual e comprovar que consegue embarcar com rapidez e segurança usando só o celular.
+## Fase 1 — MVP da Credencial Digital (Cartão Virtual e Validação)
 
-| Etapa | Descrição | Sentimento do usuário | Touchpoint |
-| :--- | :--- | :--- | :--- |
-| **1. Iniciar Cadastro** | Baixar o app, iniciar onboarding, informar dados e escolher benefício estudantil. | *"Espero que seja rápido, já estou testando algo novo."* | Tela: Onboarding |
-| **2. Enviar Foto/Vínculo** | Capturar selfie/foto oficial, vincular à instituição de ensino. | *"Preciso que pareça oficial pra catraca confiar."* | Tela: Emissão (Foto/ID) |
-| **3. Ver Cartão Ativo** | Visualizar na tela inicial a credencial ativa e status. | *"Que bom, não preciso mais da carteirinha de papel."* | Tela: Home (Cartão) |
-| **4. Validar Embarque** | Aproximar celular (NFC) ou ler QR Code dinâmico na catraca. | *"Momento da verdade, será que vai funcionar de primeira?"*| Validação: NFC/QR Code |
-| **5. Confirmar Status** | Receber retorno tátil/visual imediato de liberação na tela. | *"Funcionou! Embarquei sem o cartão físico."* | Tela: Embarque Real-time|
-| **6. Embarque Offline** | Embarcar com modo offline ativado automaticamente sem rede. | *"Alívio, nem precisei me preocupar com o sinal."* | Modo Offline Automático |
+### Jornada 1: Cynthia (Estudante - Usuários Finais)
 
----
+**Objetivo:** Cadastrar-se, ativar o cartão virtual vinculado à instituição de ensino e validar o primeiro embarque sem o cartão físico
 
-## Jornada 2: Lucas (Fase 1 - MVP da Credencial Digital)
-**Objetivo:** Substituir o cartão plástico do vale-transporte pelo app e confiar na validação rápida no pico.
+1. **Baixar o app e criar conta informando a matrícula da faculdade** — Descrição: Preencher nome, e-mail e matrícula para identificar o vínculo com a instituição. Sentimento: Quero resolver isso rápido, sem burocracia. Touchpoint: Tela: Cadastro
+2. **Confirmar o vínculo e ativar o cartão virtual** — Descrição: Enviar a foto de perfil e visualizar o cartão virtual já com o benefício. Sentimento: Preciso confiar que isso substitui mesmo o cartão físico. Touchpoint: Tela: Cartão Virtual
+3. **Validar o primeiro embarque por NFC** — Descrição: Aproximar o celular na catraca e ver a confirmação instantânea. Sentimento: Uma pontinha de ansiedade até a confirmação aparecer. Touchpoint: Tela: Validar Embarque
+4. **Confirmar no histórico que o embarque foi registrado** — Descrição: Checar a tela de início e ver a viagem listada. Sentimento: Funcionou, não preciso mais do cartão físico. Touchpoint: Tela: Início
 
-| Etapa | Descrição | Sentimento do usuário | Touchpoint |
-| :--- | :--- | :--- | :--- |
-| **1. Vincular Benefício** | Preencher dados e informar vínculo do vale com o RH da empresa. | *"Espero não preencher muita coisa antes de usar."* | Tela: Onboarding |
-| **2. Emitir Cartão** | Enviar foto/ID e conferir espelho digital ativado. | *"Tudo certo, posso abandonar o plástico."* | Tela: Emissão (Foto/ID) |
-| **3. Validar no Pico (NFC)**| Aproximar o sensor na catraca sob alta pressão da fila. | *"Não posso travar a fila, tem que ser rápido."* | Validação: NFC |
-| **4. Confirmação** | Conferir o débito efetuado com sucesso na interface. | *"Passou de primeira, alívio."* | Tela: Embarque Real-time|
-| **5. Plano B (QR Code)** | Alternar para o QR Code óptico se houver problema no leitor NFC. | *"Bom saber que tem plano B, não fico na mão."* | Validação: QR Code |
-| **6. Área Sombra (Offline)**| Passar pela catraca no túnel/terminal sem internet usando token local. | *"Nem vi que tava sem rede."* | Modo Offline Automático |
+### Jornada 2: Lucas (Trabalhador CLT - Usuários Finais)
 
----
+**Objetivo:** Ativar o cartão virtual vinculado à empresa e confiar que a validação funciona mesmo sem sinal de internet
 
-## Jornada 3: Ana Maria (Fase 2 - Recarga e Segurança)
-**Objetivo:** Recarregar créditos, acompanhar extrato e proteger o celular contra perdas sem ir a postos físicos.
+1. **Criar conta com vínculo empresarial** — Descrição: Informar o ID funcional para puxar o vínculo de vale-transporte. Sentimento: Espero que seja mais simples que o cartão atual. Touchpoint: Tela: Cadastro
+2. **Ativar o cartão virtual com o benefício de vale-transporte** — Descrição: Confirmar dados e ver o cartão ativo com o valor mensal. Sentimento: Preciso ver que o valor está certo antes de confiar. Touchpoint: Tela: Cartão Virtual
+3. **Validar embarque num ônibus lotado, sem sinal de internet** — Descrição: Aproximar o celular na catraca mesmo com o app "sem conexão". Sentimento: Se isso não funcionar sem internet, não vou usar. Touchpoint: Tela: Validar Embarque (modo offline)
+4. **Ver a validação sincronizar quando a internet volta** — Descrição: Checar que a viagem offline aparece corretamente no histórico. Sentimento: Agora sim, dá pra confiar todo dia. Touchpoint: Tela: Início
 
-| Etapa | Descrição | Sentimento do usuário | Touchpoint |
-| :--- | :--- | :--- | :--- |
-| **1. Alerta de Saldo** | Push notification de saldo crítico antes do uso. | *"Ainda bem que avisou antes da catraca."* | Notificação Push |
-| **2. Abrir Recarga** | Escolher valor e benefício na interface. | *"Quero resolver em um minuto, sem fila."* | Tela: Recarga |
-| **3. Pagar (Pix/Cartão)** | Concluir pagamento com atualização imediata de saldo. | *"Ótimo, saldo caiu na hora."* | Gateway Pagamento |
-| **4. Histórico/Extrato**| Consultar viagens realizadas para gerir o uso semanal. | *"Bom saber exatamente quanto gastei."* | Tela: Histórico/Extrato |
-| **5. Push de Status** | Receber confirmações automáticas de operações. | *"Fico tranquila de saber que está tudo em dia."* | Notificações de Status |
-| **6. Kill-Switch (Roubo)**| Bloquear benefício remotamente em emergência de furto. | *"Alívio de agir na hora, salvando meu dinheiro."*| Bloqueio Remoto |
-| **7. Reemissão Digital** | Entrar em novo aparelho e baixar credencial ativa novamente. | *"Resolvido em minutos, sem burocracia."* | Tela: Reemissão |
+### Jornada 3: Beatriz (Avulsa - Usuários Finais)
 
----
+**Objetivo:** Usar o AccessFlow mesmo sem vínculo institucional e sem NFC, validando o embarque por QR Code
 
-## Jornada 4: Emily (Fase 3 - Painel Institucional B2B)
-**Objetivo:** Cadastrar, administrar e monitorar os benefícios da empresa web reduzindo custos logísticos.
+1. **Criar conta como usuária avulsa, sem vínculo institucional** — Descrição: Selecionar "sem vínculo" e seguir sem matrícula ou empresa. Sentimento: Não quero me cadastrar em nada, só quero pegar o ônibus. Touchpoint: Tela: Cadastro
+2. **Ativar o cartão virtual avulso** — Descrição: Confirmar dados básicos e ativar sem benefício institucional. Sentimento: Espero que seja tão simples quanto o cartão físico. Touchpoint: Tela: Cartão Virtual
+3. **Validar embarque por QR Code, já que o celular não tem NFC** — Descrição: Apontar o QR Code Dinâmico para o leitor da catraca. Sentimento: Que bom que não preciso de um celular caro pra usar isso. Touchpoint: Tela: Validar Embarque (QR Code)
+4. **Confirmar que o embarque avulso foi debitado corretamente** — Descrição: Ver o valor descontado no histórico. Sentimento: Tranquila, sei exatamente quanto paguei. Touchpoint: Tela: Início
 
-| Etapa | Descrição | Sentimento da gestora | Touchpoint |
-| :--- | :--- | :--- | :--- |
-| **1. Login Institucional** | Acessar painel e configurar perfil da empresa/escola. | *"Preciso de um sistema único de controle."* | Painel Administrador |
-| **2. Cadastro (CRUD)** | Inserir/Vincular lista de usuários e matriz de benefícios. | *"Sendo em lote, evito erro manual e retrabalho."* | Tela: Gestão de Usuários|
-| **3. Definir Regras** | Parametrizar cronogramas, valores e critérios automáticos. | *"Automação evita aprovação manual repetitiva."* | Tela: Regras Benefícios |
-| **4. Live Dashboard** | Monitorar fluxo, saldos e anomalias sistêmicas ao vivo. | *"Consigo ver rápido algo fora do padrão."* | Live Dashboard |
-| **5. Auditoria** | Filtrar exportações detalhadas para conciliação contábil. | *"Me dá base pra prestar contas contra fraudes."* | Tela: Relatórios |
-| **6. Desligamento Real-time**| Suspender credencial de colaborador demitido na hora. | *"Ação imediata bloqueia passivos instantaneamente."*| Gestão de Status |
-| **7. API de Folha** | Integrar AccessFlow com ERP de RH (Totvs, RM, SAP). | *"Sincroniza tudo sem duplo lançamento."* | API Integração Externa |
+### Jornada 4: Marcos (Cordenador de Ensino - Administradores e Gestores)
 
-## Jornada 5: Rodrigo (Fase 2 - Compra Avulsa de Última Hora)
-**Objetivo:** Baixar o aplicativo no ponto de ônibus, realizar um cadastro rápido e comprar créditos via Pix para embarcar imediatamente, substituindo a compra física em bilheterias.
+**Objetivo:** Viabilizar manualmente o piloto da instituição no AccessFlow, antes de existir um painel de autoatendimento
 
-| Etapa | Descrição | Sentimento do usuário | Touchpoint |
-| :--- | :--- | :--- | :--- |
-| **1. Download no Ponto** | Baixar o AccessFlow rapidamente via 4G ao perceber que está sem o cartão físico. | *"Espero que o cadastro não seja gigante, o ônibus já vem."* | Loja de Apps / Onboarding |
-| **2. Cadastro Expresso** | Informar dados básicos e selecionar o benefício "Bilhete Único Comum". | *"Ufa, foi rápido. Não precisou aprovação de faculdade."* | Tela: Cadastro Simplificado |
-| **3. Recarga via Pix** | Selecionar valor avulso e copiar o código Pix para pagar no app do banco. | *"Se o Pix demorar a cair, vou perder o ônibus."* | Tela: Recarga (Pix Copia e Cola) |
-| **4. Confirmação Imediata** | Receber notificação push confirmando o pagamento e atualização instantânea do saldo. | *"Excelente, o dinheiro já está na tela."* | Notificação Push / Home |
-| **5. Embarque Dinâmico** | Gerar o QR Code e passar na catraca assim que o ônibus encostar. | *"Me salvou. Nunca mais pego fila em bilheteria."* | Validação: QR Code Dinâmico |
+1. **Ser apresentado ao AccessFlow por um contato comercial** — Descrição: Reunião para entender como a instituição pode virar piloto. Sentimento: Curioso, mas cético — já vi promessa digital que não emplacou. Touchpoint: Reunião comercial
+2. **Enviar por e-mail uma planilha com a lista de alunos elegíveis** — Descrição: Como o painel ainda não existe, envia a lista para cadastro manual. Sentimento: Espero que isso não vire um vaivém eterno de e-mail. Touchpoint: E-mail (processo manual)
+3. **Validar com uma turma piloto se o cartão virtual funciona** — Descrição: Acompanha um grupo pequeno testando o cadastro e a validação. Sentimento: Preciso ver funcionar antes de indicar pra toda a instituição. Touchpoint: Acompanhamento informal
+4. **Aprovar a expansão do piloto para mais turmas** — Descrição: Com o teste validado, autoriza mais alunos na base. Sentimento: Deu certo, vamos expandir com cautela. Touchpoint: E-mail / reunião
 
----
+### Jornada 5: Ana (Analista de RH - Administradores e Gestores)
 
-## Jornada 6: Sofia (Fase 2 - Troca Segura de Aparelho)
-**Objetivo:** Transferir a credencial estudantil para um smartphone novo com segurança, garantindo que o aparelho antigo perca o acesso.
+**Objetivo:** Testar o AccessFlow com um grupo piloto de funcionários antes de decidir migrar todo o vale-transporte
 
-| Etapa | Descrição | Sentimento do usuário | Touchpoint |
-| :--- | :--- | :--- | :--- |
-| **1. Login no Novo Celular** | Baixar o app no aparelho novo e entrar com credenciais e autenticação de segurança. | *"Tomara que não dê bloqueio por mudar de celular."* | Tela: Login / Segurança |
-| **2. Alerta de Migração** | Receber aviso de que o cartão virtual está atrelado a outro dispositivo. | *"Faz sentido, é para ninguém clonar minha carteirinha."* | Alerta de Segurança |
-| **3. Revogar Acesso Antigo** | Confirmar a transferência, invalidando automaticamente os tokens do celular velho. | *"Perfeito, se eu vender o antigo, ninguém usa meu passe."* | Componente: Gestão de Dispositivos |
-| **4. Validação Facial** | Tirar uma selfie rápida em tempo real para provar identidade e reativar a credencial. | *"Parece seguro mesmo, igual aplicativo de banco."* | Tela: Prova de Vida / Selfie |
-| **5. Credencial Pronta** | Visualizar o cartão ativo e pronto para uso no novo smartphone. | *"Tudo certo para a aula de amanhã."* | Tela: Home (Cartão Ativo) |
+1. **Receber a proposta do AccessFlow como alternativa ao VT atual** — Descrição: Avalia a proposta frente ao fornecedor já contratado. Sentimento: Preciso ver o que ganho de verdade trocando de fornecedor. Touchpoint: Reunião comercial
+2. **Selecionar um grupo piloto de funcionários voluntários** — Descrição: Escolhe um departamento pequeno para testar primeiro. Sentimento: Não posso arriscar o VT de todo mundo num teste. Touchpoint: E-mail interno
+3. **Acompanhar o piloto de perto pelos primeiros embarques** — Descrição: Pergunta informalmente se a validação está funcionando bem. Sentimento: Quero ouvir a real antes de decidir. Touchpoint: Conversa informal
+4. **Decidir migrar o restante da empresa** — Descrição: Com o piloto validado, autoriza a preparação da migração completa. Sentimento: Convencida, agora é hora de escalar. Touchpoint: Reunião de decisão
 
----
+### Jornada 6: Roberto (Gestor de Operadora - Administradores e Gestores)
 
-## Jornada 7: Pedro (Fase 1 - O Teste Extremo do Offline)
-**Objetivo:** Testar a resiliência do aplicativo ao tentar embarcar em uma estação de metrô profunda, sem nenhum sinal de operadora e com bateria baixa.
+**Objetivo:** Autorizar e testar tecnicamente a leitura NFC/QR do AccessFlow nas catracas de uma linha piloto
 
-| Etapa | Descrição | Sentimento do usuário | Touchpoint |
-| :--- | :--- | :--- | :--- |
-| **1. Entrar na Estação** | Descer para a área de embarque subterrânea e perder totalmente o sinal 4G/5G. | *"Ih, fiquei sem internet. Será que o app abre?"* | Ambiente Físico (Sem Rede) |
-| **2. Abrir o App Offline** | Tocar no ícone do AccessFlow, que carrega instantaneamente usando o cache local criptografado. | *"Ufa, o cartão virtual apareceu na tela rápido."* | Tela: Home (Modo Offline) |
-| **3. Gerar Token Local** | Solicitar a liberação de embarque; o app identifica a falta de rede e aciona a criptografia offline. | *"Tomara que a catraca aceite esse código gerado sem rede."* | Componente: Validação HCE/QR Offline |
-| **4. Passar na Catraca** | Aproximar o celular e a catraca liberar o acesso com base na assinatura digital do token. | *"Incrível, funcionou mesmo no modo avião!"* | Catraca / Validador |
-| **5. Sincronização Tardia** | Receber notificação de atualização de saldo 30 minutos depois, ao voltar para a superfície. | *"Ah, agora ele descontou no sistema central. Bem pensado."* | Background Sync / Notificação |
+1. **Avaliar a viabilidade técnica de integrar às catracas existentes** — Descrição: Reunião técnica sobre suporte a leitura NFC/QR. Sentimento: Se exigir trocar todo equipamento, o custo pode inviabilizar. Touchpoint: Reunião técnica
+2. **Autorizar um teste piloto em uma linha de ônibus** — Descrição: Libera uma linha específica para o teste. Sentimento: Melhor testar pequeno antes de expor a frota toda. Touchpoint: Autorização interna
+3. **Acompanhar os primeiros embarques validados na linha piloto** — Descrição: Recebe relatório manual sobre volume e sucesso das validações. Sentimento: Quero ver os números antes de aprovar mais linhas. Touchpoint: Relatório por e-mail
+4. **Aprovar a expansão para mais linhas da frota** — Descrição: Com o piloto validado, autoriza mais linhas. Sentimento: Funcionou sem travar o embarque, podemos crescer. Touchpoint: Reunião de aprovação
 
----
+### Jornada 7: Fernanda (Órgão Público - Administradores e Gestores)
 
-## Jornada 8: Roberto (Fase 3 - Fechamento Financeiro B2B)
-**Objetivo:** Extrair relatórios de uso e custos no final do mês para realizar a conciliação financeira entre o RH e o setor financeiro da empresa.
+**Objetivo:** Entender se o AccessFlow atende às exigências regulatórias antes de autorizar qualquer piloto na cidade
 
-| Etapa | Descrição | Sentimento do usuário | Touchpoint |
-| :--- | :--- | :--- | :--- |
-| **1. Acesso ao Painel B2B** | Entrar no portal administrativo com perfil de Analista Financeiro. | *"Preciso fechar esses números hoje sem depender de planilhas manuais."* | Painel Web B2B (Login) |
-| **2. Visão Geral de Custos** | Acessar o Dashboard Financeiro para ver o volume total de recargas disparadas no mês. | *"A visualização gráfica ajuda a ver se estouramos o orçamento."* | Live Dashboard (Módulo Financeiro) |
-| **3. Conciliação de Saldos** | Comparar créditos depositados versus viagens efetivamente realizadas pelos colaboradores. | *"Finalmente consigo ver se há créditos acumulados sem uso."* | Tela: Relatórios de Uso |
-| **4. Extração de Auditoria** | Gerar um log detalhado apontando divergências ou bloqueios por desligamento. | *"Essa trilha de auditoria vai salvar muito tempo na prestação de contas."* | Tela: Logs e Exportação |
-| **5. Integração com ERP** | Clicar em "Exportar para SAP/Totvs" e enviar a consolidação direto para a contabilidade. | *"Trabalho de dias resolvido em poucos minutos."* | API Integração Externa |
+1. **Receber a apresentação do AccessFlow como nova bilhetagem digital** — Descrição: Reunião sobre o modelo de validação e conformidade. Sentimento: Preciso entender se isso está dentro do que a legislação permite. Touchpoint: Reunião institucional
+2. **Solicitar documentação técnica sobre segurança e criptografia** — Descrição: Pede detalhes sobre geração e proteção dos tokens de validação. Sentimento: Não posso autorizar algo que abra brecha de fraude. Touchpoint: Documentação técnica
+3. **Autorizar um piloto restrito, sob monitoramento do órgão** — Descrição: Libera o teste em escala pequena, com acompanhamento direto. Sentimento: Vamos observar de perto antes de qualquer aprovação ampla. Touchpoint: Autorização formal
+4. **Avaliar os resultados do piloto frente às métricas de conformidade** — Descrição: Revisa se o piloto cumpriu os requisitos esperados. Sentimento: Se os dados baterem, dá pra levar pra aprovação plena. Touchpoint: Relatório de conformidade
 
----
 
-## Jornada 9: Mariana (Fase 2 - Suporte e Resolução Integrada)
-**Objetivo:** Resolver rapidamente uma divergência de saldo no aplicativo utilizando os canais de suporte embutidos sem precisar ligar para uma central.
+## Fase 2 — Recarga, Saldo e Segurança (Confiança e Retenção)
 
-| Etapa | Descrição | Sentimento do usuário | Touchpoint |
-| :--- | :--- | :--- | :--- |
-| **1. Identificar Problema** | Fazer uma recarga, ver o valor debitado no banco, mas notar que o saldo no AccessFlow não atualizou imediatamente. | *"Poxa, paguei e o saldo não caiu. O que eu faço agora?"* | Tela: Home (Saldo) |
-| **2. Acessar Ajuda In-App** | Tocar no botão de suporte/ajuda diretamente na tela de extrato. | *"Espero não ter que ligar pra um 0800 e ficar ouvindo musiquinha."* | Tela: Central de Ajuda |
-| **3. Interação Automatizada**| Selecionar a opção "Fiz um Pix e não caiu" e inserir o ID da transação. | *"É prático poder resolver pelo próprio aplicativo."* | Chatbot / Formulário de Suporte |
-| **4. Sincronização Forçada** | O sistema identifica o pagamento no gateway, força uma atualização e corrige o saldo. | *"Ufa, o sistema reconheceu o pagamento rapidinho."* | Backend (API de Pagamento) |
-| **5. Confirmação e Uso** | Receber pop-up de sucesso, ver o saldo correto e ir direto para a catraca. | *"Problema resolvido em dois minutos. Posso embarcar em paz."* | Tela: Embarque Real-time |
+### Jornada 1: Cynthia (Estudante - Usuários Finais)
+
+**Objetivo:** Recarregar o saldo pelo próprio app e acompanhar o extrato sem depender de ponto físico
+
+1. **Receber o alerta de saldo baixo** — Descrição: Ver a notificação automática de poucas passagens restantes. Sentimento: Ainda bem que fui avisada antes de ficar na mão. Touchpoint: Notificação push + Tela: Extrato
+2. **Recarregar via Pix pelo app** — Descrição: Escolher o valor, pagar por Pix e ver o saldo atualizar na hora. Sentimento: Isso é bem mais rápido que ir até o ponto de recarga. Touchpoint: Tela: Recarregar
+3. **Conferir o extrato de viagens da semana** — Descrição: Revisar quanto gastou e quantas viagens fez. Sentimento: Legal ter esse controle, antes eu não sabia pra onde ia o dinheiro. Touchpoint: Tela: Extrato
+
+### Jornada 2: Lucas (Trabalhador CLT - Usuários Finais)
+
+**Objetivo:** Perder o celular, bloquear o cartão virtual remotamente e conseguir uma reemissão digital sem burocracia
+
+1. **Perceber que perdeu o celular no caminho do trabalho** — Descrição: Nota a ausência do celular e lembra que o cartão está nele. Sentimento: Pânico, como eu volto pra casa agora? Touchpoint: Acesso via web (outro dispositivo)
+2. **Bloquear o cartão remotamente por outro dispositivo** — Descrição: Entra na conta por um computador ou celular emprestado e bloqueia na hora. Sentimento: Alívio, pelo menos ninguém mais vai gastar meu saldo. Touchpoint: Tela: Perfil > Bloquear cartão (acesso web)
+3. **Solicitar a reemissão digital do cartão virtual** — Descrição: Pede um novo cartão vinculado ao mesmo benefício. Sentimento: Sem fila, sem novo boleto de segunda via. Touchpoint: Tela: Perfil > Reemitir cartão
+
+### Jornada 3: Beatriz (Avulsa - Usuários Finais)
+
+**Objetivo:** Configurar notificações automáticas e entender seu padrão de uso pelo extrato, mesmo sem vínculo institucional
+
+1. **Ativar o alerta automático de saldo baixo** — Descrição: Liga a notificação no perfil, já que recarrega pouco de cada vez. Sentimento: Não quero ser pega de surpresa numa catraca. Touchpoint: Tela: Perfil > Segurança
+2. **Recarregar um valor pequeno via cartão de crédito** — Descrição: Escolhe um valor customizado e paga por crédito. Sentimento: Bom ter uma opção que eu já uso no dia a dia. Touchpoint: Tela: Recarregar
+3. **Revisar o extrato para decidir se vale a pena um plano fixo** — Descrição: Olha quanto gastou no mês avulso e compara com um vale fixo. Sentimento: Talvez valha a pena migrar se eu andar mais de ônibus. Touchpoint: Tela: Extrato
+
+### Jornada 4: Marcos (Coordenador de Ensino - Administradores e Gestores)
+
+**Objetivo:** Acompanhar informalmente os primeiros pedidos de bloqueio/recarga da instituição piloto, sem ainda ter um painel de gestão
+
+1. **Receber reclamações pontuais de alunos sobre saldo baixo** — Descrição: Alunos avisam por e-mail/WhatsApp que não sabiam do saldo baixo. Sentimento: Preciso que isso pare de cair no meu colo individualmente. Touchpoint: E-mail / WhatsApp
+2. **Confirmar que o alerta automático de saldo resolveu o problema** — Descrição: Acompanha se os alunos passam a ser avisados automaticamente. Sentimento: Ótimo, isso já tira trabalho de mim. Touchpoint: Feedback informal dos alunos
+3. **Intermediar um pedido de bloqueio por perda de celular** — Descrição: Orienta um aluno a usar o bloqueio remoto pelo próprio app. Sentimento: Bom não precisar mais resolver isso na marra. Touchpoint: Orientação direta ao aluno
+
+### Jornada 5: Ana (Analista de RH -Administradores e Gestores)
+
+**Objetivo:** Confirmar que a recarga e a segurança do AccessFlow reduzem os chamados internos de RH sobre vale-transporte
+
+1. **Notar a queda nos chamados sobre "esqueci o cartão" ou "não sei o saldo"** — Descrição: Percebe informalmente a queda no volume de reclamações. Sentimento: Isso já economiza um tempo enorme do meu time. Touchpoint: Observação informal
+2. **Orientar um funcionário que perdeu o celular a bloquear pelo app** — Descrição: Direciona o funcionário para o bloqueio remoto, sem abrir processo interno. Sentimento: Isso deveria ter existido há anos. Touchpoint: Orientação direta
+3. **Registrar o ganho de tempo do time de RH com o piloto** — Descrição: Anota quantas horas deixaram de ser gastas com pedidos manuais. Sentimento: Já tenho argumento pra levar pra diretoria. Touchpoint: Anotação própria
+
+### Jornada 6: Roberto (Gestor de Operadora - Administradores e Gestores)
+
+**Objetivo:** Confirmar que o modo offline e a recarga reduzem falhas de validação reportadas pelos motoristas da linha piloto
+
+1. **Coletar relatos dos motoristas sobre falhas de validação** — Descrição: Pergunta à equipe da linha piloto se houve problemas de leitura. Sentimento: Se travar o embarque, os motoristas reclamam direto comigo. Touchpoint: Conversa com motoristas
+2. **Confirmar que o modo offline evitou travamentos em áreas de sinal fraco** — Descrição: Recebe relatório mostrando validações concluídas sem internet. Sentimento: Isso resolve um problema que eu nem esperava. Touchpoint: Relatório técnico
+3. **Registrar a redução de reclamações de passageiros sobre saldo** — Descrição: Nota menos gente presa na catraca por falta de saldo. Sentimento: Menos gente discutindo com o motorista na catraca. Touchpoint: Observação de campo
+
+### Jornada 7: Fernanda (Órgão Público - Administradores e Gestores)
+
+**Objetivo:** Monitorar se o piloto está gerando dados confiáveis de uso e segurança para embasar uma futura aprovação ampla
+
+1. **Solicitar um relatório periódico de validações do piloto** — Descrição: Pede dados consolidados de uso no período. Sentimento: Preciso de dado, não de opinião, pra levar ao conselho. Touchpoint: Relatório periódico
+2. **Avaliar incidentes de bloqueio e reemissão do piloto** — Descrição: Revisa quantos bloqueios remotos foram acionados. Sentimento: Quero ver que o sistema resiste a tentativa de fraude. Touchpoint: Relatório de segurança
+3. **Preparar um parecer preliminar para o conselho do consórcio** — Descrição: Resume os achados do piloto até aqui. Sentimento: Até agora, os números sustentam seguir adiante. Touchpoint: Documento interno
+
+
+## Fase 3 — Painel Web Institucional e Monetização (Gestão e Escala)
+
+### Jornada 1: Marcos (Coordenador de Ensino - Administradores e Gestores)
+
+**Objetivo:** Usar o painel web para gerenciar as credenciais dos alunos em escala e reduzir o tempo de reemissão
+
+1. **Acessar o dashboard institucional** — Descrição: Ver, em tempo real, quantos alunos já ativaram o cartão virtual. Sentimento: Quero saber se está funcionando antes que alguém reclame comigo. Touchpoint: Painel Web: Dashboard
+2. **Importar a lista de alunos elegíveis do semestre** — Descrição: Subir a planilha para emissão automática dos cartões virtuais. Sentimento: Não posso cadastrar um por um, são centenas de alunos. Touchpoint: Painel Web: Importação de Usuários
+3. **Bloquear e encerrar a credencial de um aluno que trancou o curso** — Descrição: Busca o aluno e encerra o benefício na hora. Sentimento: Preciso resolver isso sem processo de papel. Touchpoint: Painel Web: Gestão de Usuário
+4. **Exportar o relatório de auditoria para a diretoria** — Descrição: Gera relatório de uso e emissões do semestre. Sentimento: Preciso disso pronto quando a diretoria pedir. Touchpoint: Painel Web: Relatórios
+
+### Jornada 2: Ana (Analista de RH - Administradores e Gestores)
+
+**Objetivo:** Configurar o crédito automático mensal e integrar o AccessFlow ao sistema de RH da empresa
+
+1. **Configurar o crédito mensal automático de vale-transporte** — Descrição: Define valor e data de crédito por cargo. Sentimento: Se isso for automático, elimino um processo manual enorme. Touchpoint: Painel Web: Crédito Automático
+2. **Integrar o painel ao sistema de RH da empresa** — Descrição: Conecta a base de funcionários já usada no RH. Sentimento: Não quero manter duas planilhas diferentes. Touchpoint: Painel Web: Integrações
+3. **Acompanhar chamados de bloqueio e reemissão** — Descrição: Vê, num só lugar, quantos funcionários pediram bloqueio no mês. Sentimento: Quero reduzir os e-mails de "perdi meu cartão". Touchpoint: Painel Web: Central de Solicitações
+4. **Fechar o relatório de custo do mês para o financeiro** — Descrição: Exporta o total gasto por funcionário e período. Sentimento: Preciso disso fechado até o dia 5 de cada mês. Touchpoint: Painel Web: Relatórios Financeiros
+
+### Jornada 3: Roberto (Gestor de Operadora - Administradores e Gestores)
+
+**Objetivo:** Acompanhar a adoção do AccessFlow entre os passageiros e validar o contrato de comissão sobre recargas
+
+1. **Acessar o painel da operadora e ver o volume de validações por linha** — Descrição: Consulta quantas validações aconteceram no período. Sentimento: Preciso justificar pro contrato que isso reduz o problema de bilhetagem. Touchpoint: Painel Web: Dashboard da Operadora
+2. **Conferir o extrato de comissão sobre as recargas do período** — Descrição: Vê o valor de comissão gerado pelas recargas da frota. Sentimento: Quero ver se o modelo de receita realmente compensa. Touchpoint: Painel Web: Financeiro da Operadora
+3. **Configurar regras de tarifa por linha ou horário** — Descrição: Define valores diferentes quando aplicável. Sentimento: Preciso que o sistema respeite as regras da nossa concessão. Touchpoint: Painel Web: Regras de Tarifa
+4. **Assinar o contrato de comissão direto pelo painel** — Descrição: Revisa e confirma os termos do contrato. Sentimento: Se for simples de assinar, fechamos ainda essa semana. Touchpoint: Painel Web: Contratos
+
+### Jornada 4: Fernanda (Órgão Público - Administradores e Gestores)
+
+**Objetivo:** Usar o painel institucional para fiscalizar a conformidade do AccessFlow em escala, antes da aprovação ampla na cidade
+
+1. **Acessar relatórios agregados de todas as operadoras conectadas** — Descrição: Consulta o volume de validações e recargas de todas as operadoras. Sentimento: Finalmente tenho visibilidade de tudo num só lugar. Touchpoint: Painel Web: Relatórios Regulatórios
+2. **Auditar logs de segurança e tentativas de fraude** — Descrição: Revisa registros de bloqueio e tentativas de validação inválida. Sentimento: Preciso disso documentado pra qualquer questionamento futuro. Touchpoint: Painel Web: Logs de Auditoria
+3. **Emitir parecer favorável à expansão para toda a cidade** — Descrição: Com os dados agregados, formaliza a aprovação regulatória. Sentimento: Os números sustentam a decisão, podemos aprovar. Touchpoint: Painel Web: Relatórios / Documento formal
+
+### Jornada 5: Cynthia (Estudante - Usuários Finais)
+
+**Objetivo:** Perceber, como aluna veterana, que o cadastro de calouros agora é automático graças ao painel institucional
+
+1. **Ver colegas calouros já embarcando no primeiro dia de aula** — Descrição: Percebe que os novos alunos já chegam com o cartão ativo. Sentimento: Que inveja boa, eu tive que esperar semanas pra ativar o meu. Touchpoint: Observação no campus
+2. **Usar o extrato para comparar seu histórico de um semestre inteiro** — Descrição: Revisa o extrato consolidado do semestre para planejar o próximo. Sentimento: Agora sim consigo enxergar meu padrão de gasto. Touchpoint: Tela: Extrato
+
+### Jornada 6: Lucas (Trabalhador CLT - Usuários Finais)
+
+**Objetivo:** Perceber que a empresa passou a oferecer autoatendimento completo, sem precisar mais falar com o RH
+
+1. **Notar que o crédito mensal de VT cai automaticamente, sem aviso do RH** — Descrição: Percebe que o valor aparece automaticamente todo mês. Sentimento: Isso já virou rotina, nem penso mais nisso. Touchpoint: Tela: Início
+2. **Resolver uma dúvida sobre o benefício direto pelo app, sem passar pelo RH** — Descrição: Consulta histórico e regras direto no app. Sentimento: Antes eu tinha que mandar e-mail pro RH pra isso. Touchpoint: Tela: Extrato / Perfil
+
+### Jornada 7: Beatriz (Avulsa - Usuários Finais)
+
+**Objetivo:** Perceber que o AccessFlow ganhou mais credibilidade com a adesão de instituições e operadoras
+
+1. **Notar que mais linhas e operadoras aceitam o AccessFlow** — Descrição: Percebe, usando o app em diferentes ônibus, que a cobertura aumentou. Sentimento: Agora dá pra confiar que funciona em qualquer lugar da cidade. Touchpoint: Tela: Validar Embarque
+2. **Indicar o app para outras pessoas avulsas como ela** — Descrição: Recomenda o AccessFlow para conhecidos que ainda usam bilhete físico. Sentimento: Se funciona pra mim, vai funcionar pra qualquer um. Touchpoint: Indicação boca a boca
