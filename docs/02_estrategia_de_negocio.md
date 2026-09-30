@@ -17,19 +17,31 @@ O AccessFlow atende 3 segmentos primários, cada um representado por uma persona
 ## 🛠️ Jobs to be Done (JTBD)
 
 ### 🎓 Estudantes (Cynthia)
-* **Funcional:** Embarcar usando só o celular; ver saldo antes de sair; recarregar por Pix; bloquear benefício na hora em caso de perda; consultar histórico; validar embarque sem sinal de internet.
-* **Emocional:** Sentir segurança de não ficar retida na catraca; alívio por não depender de fila/2ª via; tranquilidade por saber o saldo; confiança na autonomia; praticidade; menos ansiedade.
-* **Social:** Ser vista como organizada e digital; não atrasar a fila; ser reconhecida como usuária legítima (foto oficial); parecer atualizada em tecnologia.
-
+* **Funcional:**
+- Acessar áreas privadas da instituição
+- Conseguir desconto na hora do pagamento em cinema, eventos ou sites parceiros
+- Usar o transporte público no dia a dia
+- Comentar/avaliar sua experiência com o transporte público
+- Validar o embarque de forma rápida e confiável, mesmo sem internet
+- Manter controle do próprio saldo e histórico de uso
+  
 ### 💼 Trabalhadores (Lucas)
-* **Funcional:** Passar na catraca no pico sem travar fila; receber vale no celular no dia do crédito; ser avisado do saldo liberado; usar QR Code como plano B; consultar extrato; bloquear saldo contra furto.
-* **Emocional:** Segurança de chegar no horário; alívio contra falhas de plástico; confiança com tela de confirmação; tranquilidade com aviso de crédito; menos irritação; proteção contra perdas.
-* **Social:** Ser visto como pontual/responsável; prático; evitar constrangimento na catraca; parceiro em dia com RH; indicar inovação aos colegas.
+* **Funcional:**
+- Passar na catraca no pico sem travar fila
+- Receber vale no celular no dia do crédito
+- Ser avisado do saldo liberado
+- Usar QR Code como plano B
+- Consultar extrato
+- Bloquear saldo contra furto.
 
 ### 👩‍💼 Gestores de Benefícios (Ana Maria)
-* **Funcional:** Cadastrar/vincular usuários; definir regras/valores de recarga; bloquear/desbloquear com efeito imediato; monitorar dashboards; emitir relatórios de auditoria; integrar com folha/sistema acadêmico.
-* **Emocional:** Controle sobre benefícios; alívio com menos chamados; segurança ao prestar contas; confiança contra fraudes; menos estresse com planilhas; tranquilidade com base unificada.
-* **Social:** Gestora organizada/transparente; reconhecida por reduzir custos; vista como inovadora; confiável perante operadoras; referência interna ágil.
+* **Funcional:**
+- Emitir e gerenciar credenciais de benefício de transporte em escala, sem processo manual
+- Definir e aplicar regras de elegibilidade e valores de benefício por perfil
+- Auditar o uso e o custo dos benefícios concedidos, com dados confiáveis
+- Reduzir o volume de chamados sobre cartão perdido, saldo ou falha de validação
+- Bloquear e reemitir credenciais remotamente, sem deslocamento físico
+- Integrar a gestão de benefícios aos sistemas já usados (RH, sistemas acadêmicos)
 
 ---
 
