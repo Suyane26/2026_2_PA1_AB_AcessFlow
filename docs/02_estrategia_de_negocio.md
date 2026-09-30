@@ -136,20 +136,47 @@ O AccessFlow atende 2 segmentos primários, cada um representado por uma persona
 7. Monetização progressiva (licenciamento institucional + comissão sobre recargas + contratos com operadoras) sem prejudicar a adoção
 8. Ciclo contínuo de validação e aprendizado (pesquisa com usuários, testes de campo e loops de feedback com instituições)
 
-### Fase 1: MVP da Credencial Digital (Cartão Virtual e Validação)
-* **Duração:** 6 a 8 semanas[cite: 7]
-* **Foco:** Provar que o celular substitui o cartão físico com segurança tanto para usuários vinculados quanto avulsos (base)[cite: 1, 7].
-* **Entregas:** Cadastro (foto, ID, benefício ou perfil avulso), Vínculo assistido + Cadastro direto, Validação NFC (HCE) / QR Code dinâmico, Modo offline local, Tela de status em tempo real[cite: 1, 7].
-* **Métricas:** Validação em <3s, 90% sucesso na 1ª tentativa, 70% ativação, NPS >= 35[cite: 7].
+### Fase: 1
+**Título:** MVP da Credencial Digital (Cartão Virtual e Validação)
+**Duração:** 6-8 semanas
+**Foco estratégico:** Criar o núcleo de valor: um cartão virtual com validação por NFC ou QR Code Dinâmico que funcione mesmo sem internet, substituindo o cartão físico exatamente no momento mais crítico, o embarque.
+**Principais Entregas**
+- Cadastro de usuário com perfil público (foto, matrícula/ID, tipo de benefício)
+- Cartão virtual com QR Code Dinâmico e suporte a NFC (HCE)
+- Modo offline automático de validação, com tokens criptografados de curta duração
+- Tela de validação no embarque com status em tempo real
+**Métricas**
+- Tempo médio de validação na catraca: <= 10 segundos
+- Percentual de validações concluídas com sucesso na primeira tentativa: >= 90%
+- Percentual de usuários piloto com cadastro completo e cartão virtual ativo: >= 70%
+- NPS (usuário final) na experiência de validação: >= 35
 
-### Fase 2: Recarga e Segurança (Fidelização)
-* **Duração:** 8 a 10 semanas[cite: 7]
-* **Foco:** Controle de saldo, recargas instantâneas e segurança do ativo[cite: 7].
-* **Entregas:** Recarga Pix/Cartões (benefício e avulso), Extrato/Histórico de viagens, Alerta de saldo baixo, Bloqueio/Reemissão remota instantânea, Push Notifications[cite: 1, 7].
-* **Métricas:** 50% WAU (ativos semanais), Recarga em <30s, Aprovação pagto >=95%, Retenção D30 >=40%[cite: 7].
+### Fase: 2
+**Título:** Recarga, Saldo e Segurança (Confiança e Retenção)
+**Duração:** 8-10 semanas
+**Foco estratégico:** Eliminar a dependência de pontos físicos de recarga e devolver ao usuário o controle sobre saldo e segurança, aumentando a confiança e o uso recorrente do app.
+**Principais Entregas**
+- Recarga via Pix, débito ou crédito diretamente pelo app
+- Extrato e histórico de viagens e recargas em tempo real
+- Alerta automático de saldo baixo
+- Bloqueio remoto imediato e reemissão digital em caso de perda ou roubo
+**Métricas**
+- Usuários ativos semanalmente (recarregaram ou validaram ao menos 1x/semana): >= 50%
+- Tempo médio para concluir uma recarga: <= 30 segundos
+- Retenção D30 (usuários finais): >= 40%
+- Taxa de aceitação do modo offline como alternativa confiável, validada por pesquisa: >= 80%
 
-### Fase 3: Painel Gestor, Auditoria e Monetização (Escala B2B/B2G)
-* **Duração:** 10 a 12 semanas[cite: 8]
-* **Foco:** Escala B2B/B2G, Integrações de sistemas e Geração de receita[cite: 1, 8].
-* **Entregas:** Painel Web B2B/B2G (CRUD de usuários e importação em lote CSV/XLSX), Regras de recarga/concessão automática, Live Dashboard e logs de auditoria (para operadoras e órgãos reguladores), Integrações API (RH/Sistemas acadêmicos), Faturamento institucional[cite: 1, 8].
-* **Métricas:** >=2 instituições/empresas ativas, 60% elegíveis cadastrados, 70% mais rápido que processo físico[cite: 8].
+### Fase: 3
+**Título:** Painel Web Institucional e Monetização (Gestão e Escala)
+**Duração:** 10-12 semanas
+**Foco estratégico:** Entregar a camada de gestão para instituições (empresas, escolas e operadoras de transporte), habilitando escala de adoção e iniciando as primeiras fontes de receita.
+**Principais Entregas**
+- Painel web com cadastro e gestão de usuários (CRUD completo)
+- Definição de regras de benefício e elegibilidade por instituição
+- Dashboard em tempo real de uso, recargas e saldo médio
+- Relatórios e logs de auditoria filtráveis por período, perfil e método de validação
+**Métricas**
+- Instituições piloto ativas no painel web: >= 2
+- Percentual de elegíveis cadastrados em uma instituição piloto: >= 60%
+- Tempo médio para um gestor ativar ou bloquear uma credencial pelo painel: <= 2 minutos
+- Receita validada por comissão sobre recargas no piloto: primeira transação registrada
