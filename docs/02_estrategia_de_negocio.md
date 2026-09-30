@@ -1,7 +1,7 @@
 # 📊 Estratégia de Negócio
 
 ## 👥 Segmentos de Clientes
-O AccessFlow atende 3 segmentos primários, cada um representado por uma persona:
+O AccessFlow atende 2 segmentos primários, cada um representado por uma persona:
 
 | Segmento | Personas Representativas | Quem são |
 | :--- | :--- | :--- |
