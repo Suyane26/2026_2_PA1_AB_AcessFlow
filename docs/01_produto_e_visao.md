@@ -53,10 +53,11 @@ No painel web, empresas, instituições de ensino e operadoras vão poder cadast
 ---
 
 ## 🔭 Visão do Produto
-* **Para:** Estudantes, trabalhadores e usuários do transporte público, e para as instituições e empresas que gerenciam seus benefícios de transporte.
-* **Que dores enfrentam:** Filas na catraca, cartões esquecidos ou não reconhecidos, saldo incerto na hora de embarcar e o risco de ficar sem acesso ao perder ou ter o cartão roubado, além de uma gestão manual e sem visibilidade dos benefícios.
-* **O:** AccessFlow.
-* **Que benefícios:** Transforma o celular na própria credencial de embarque, com validação instantânea por NFC ou QR Code dinâmico, mesmo offline, além de recarga, saldo em tempo real e bloqueio remoto em um toque.
-* **É uma:** Plataforma mobile-first de mobilidade urbana, com app para o usuário final e painel web de gestão para instituições.
-* **Diferente de:** Libercard e outras soluções de recarga, que ainda dependem do cartão físico na catraca.
-* **O nosso produto:** Elimina o cartão físico de vez: o celular é o passe, continua funcionando sem internet e entrega a empresas, escolas e operadoras um painel único de controle.
+
+* **Para:** Usuários do transporte público (estudantes, trabalhadores CLT e passageiros avulsos), e para os administradores e gestores que gerenciam, concedem e fiscalizam esses benefícios (RHs, secretarias acadêmicas, operadoras de transporte e órgãos reguladores).
+* **Que dores enfrentam:** Filas na catraca, cartões físicos esquecidos, danificados ou roubados, incerteza sobre saldo e depósitos no momento do embarque, além de gestão manual, burocrática e sem transparência para as instituições[cite: 1, 4, 12].
+* **O:** AccessFlow[cite: 12].
+* **Que benefícios:** Transforma o celular na própria credencial de embarque, com validação instantânea por NFC ou QR Code dinâmico (inclusive offline), recargas digitais via Pix/Cartão, acompanhamento de saldo em tempo real e bloqueio remoto imediato.
+* **É uma:** Plataforma mobile-first de bilhetagem e mobilidade urbana, composta por um aplicativo para o usuário final e um painel web B2B/B2G de gestão, automação e auditoria em tempo real.
+* **Diferente de:** Libercard e outras soluções tradicionais de recarga, que ainda dependem da gravação física e do uso do cartão de PVC na catraca[cite: 12].
+* **O nosso produto:** Elimina a necessidade do plástico de vez: o celular é o passe de transporte, continua validando embarques sem sinal de internet e entrega a empresas, escolas, operadoras e órgãos reguladores um ecossistema centralizado de controle, automação e combate a fraudes[cite: 1, 12].
