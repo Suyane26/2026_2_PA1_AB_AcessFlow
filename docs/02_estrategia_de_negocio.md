@@ -3,11 +3,10 @@
 ## 👥 Segmentos de Clientes
 O AccessFlow atende 3 segmentos primários, cada um representado por uma persona:
 
-| Segmento | Persona | Quem são |
+| Segmento | Personas Representativas | Quem são |
 | :--- | :--- | :--- |
-| **Estudantes (Carteirinha)** | Cynthia | Estudantes do ensino médio, técnico e superior que usam transporte com desconto. |
-| **Trabalhadores (Vale-transporte)** | Lucas | Empregados CLT que recebem o benefício da empresa para o trajeto casa-trabalho. |
-| **Gestores de Benefícios** | Ana Maria | RH de empresas, secretarias/coordenações de escolas e faculdades que emitem e gerenciam benefícios. |
+| **Usuários Finais do Transporte Público** | **Ana** (Estudante)<br>**Carlos** (Trabalhador CLT)<br>**Beatriz** (Usuária Avulsa) | Estudantes, trabalhadores assalariados e passageiros avulsos que utilizam o transporte público e hoje dependem de carteirinha estudantil, vale-transporte ou bilhete único. |
+| **Administradores e Gestores** | **Marcos** (Coordenador de Ensino)<br>**Patrícia** (Analista de RH)<br>**Roberto** (Gestor de Operadora)<br>**Fernanda** (Órgão Público) | Profissionais de RH de empresas, secretarias de instituições de ensino, operadoras de transporte e órgãos públicos de mobilidade responsáveis pela gestão, emissão e auditoria dos benefícios de transporte[cite: 1]. |
 
 > **Parceiros (Não clientes):** Operadoras de transporte, órgãos públicos e autoridades de mobilidade (como ETUFOR) atuam como parceiros de integração e validação (sem persona no MVP).
 > **Fora do foco inicial:** Usuários ocasionais (créditos avulsos) e vítimas de furto, que entram como público futuro atendido pelas mesmas funções.
