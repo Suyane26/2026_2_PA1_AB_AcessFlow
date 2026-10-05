@@ -20,7 +20,6 @@ No painel web, empresas, instituições de ensino e operadoras vão poder cadast
 * Alternativa digital aos cartões físicos (carteirinha estudantil, vale-transporte e bilhete único).
 * Credencial de embarque no celular, por NFC (HCE) ou QR Code dinâmico.
 * Camada de software e API que se integra aos validadores e catracas existentes.
-* Sistema de gestão centralizada de benefícios para empresas, instituições de ensino e operadoras.
 * Experiência mobile-first que funciona mesmo sem internet (modo offline automático).
 
 ### ❌ O que Não É
@@ -32,14 +31,13 @@ No painel web, empresas, instituições de ensino e operadoras vão poder cadast
 * Ferramenta para clonar ou duplicar cartões físicos de terceiros.
 
 ### ⚙️ O que Faz
-* Emite o cartão virtual com foto, nome, matrícula ou ID e tipo de benefício.
+* Emite o cartão virtual com foto, nome, matrícula ou ID.
 * Valida o embarque por aproximação (NFC) ou por QR Code dinâmico, inclusive offline.
 * Gera tokens criptografados, temporários e de curta duração.
 * Permite recarga por Pix, cartão de crédito ou débito.
 * Mostra saldo, extrato e histórico de viagens, e envia notificações de saldo baixo e de status.
 * Permite bloqueio remoto imediato e reemissão digital do cartão.
 * Permite à empresa ou instituição cadastrar usuários, definir regras de benefício e bloquear ou desbloquear credenciais pelo painel web.
-* Oferece dashboard em tempo real, relatórios e logs de auditoria, e integra com folha de pagamento, sistemas acadêmicos e bilhetagem.
 
 ### 🚫 O que Não Faz
 * Não realiza pagamentos em comércio, serviços ou aplicativos de delivery.
@@ -55,9 +53,9 @@ No painel web, empresas, instituições de ensino e operadoras vão poder cadast
 ## 🔭 Visão do Produto
 
 * **Para:** Usuários do transporte público (estudantes, trabalhadores CLT e passageiros avulsos), e para os administradores e gestores que gerenciam, concedem e fiscalizam esses benefícios (RHs, secretarias acadêmicas, operadoras de transporte e órgãos reguladores).
-* **Que dores enfrentam:** Filas na catraca, cartões físicos esquecidos, danificados ou roubados, incerteza sobre saldo e depósitos no momento do embarque, além de gestão manual, burocrática e sem transparência para as instituições[cite: 1, 4, 12].
-* **O:** AccessFlow[cite: 12].
+* **Que dores enfrentam:** Filas na catraca, cartões físicos esquecidos, danificados ou roubados, incerteza sobre saldo e depósitos no momento do embarque, além de gestão manual, burocrática e sem transparência para as instituições.
+* **O:** AccessFlow.
 * **Que benefícios:** Transforma o celular na própria credencial de embarque, com validação instantânea por NFC ou QR Code dinâmico (inclusive offline), recargas digitais via Pix/Cartão, acompanhamento de saldo em tempo real e bloqueio remoto imediato.
 * **É uma:** Plataforma mobile-first de bilhetagem e mobilidade urbana, composta por um aplicativo para o usuário final e um painel web B2B/B2G de gestão, automação e auditoria em tempo real.
-* **Diferente de:** Libercard e outras soluções tradicionais de recarga, que ainda dependem da gravação física e do uso do cartão de PVC na catraca[cite: 12].
-* **O nosso produto:** Elimina a necessidade do plástico de vez: o celular é o passe de transporte, continua validando embarques sem sinal de internet e entrega a empresas, escolas, operadoras e órgãos reguladores um ecossistema centralizado de controle, automação e combate a fraudes[cite: 1, 12].
+* **Diferente de:** Libercard e outras soluções tradicionais de recarga, que ainda dependem da gravação física e do uso do cartão de PVC na catraca.
+* **O nosso produto:** Elimina a necessidade do plástico de vez: o celular é uma alternativa para quem faz uso de transporte público, continua validando embarques sem sinal de internet e entrega a empresas, escolas, operadoras e órgãos reguladores um ecossistema centralizado de controle.
