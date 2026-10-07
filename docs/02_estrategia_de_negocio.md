@@ -6,7 +6,7 @@ O AccessFlow atende 2 segmentos primários, cada um representado por uma persona
 | Segmento | Personas Representativas | Quem são |
 | :--- | :--- | :--- |
 | **Usuários Finais do Transporte Público** | **Cynthia** (Estudante)<br>**Lucas** (Trabalhador CLT)<br>**Beatriz** (Usuária Avulsa) | Estudantes, trabalhadores assalariados e passageiros avulsos que utilizam o transporte público e hoje dependem de carteirinha estudantil, vale-transporte ou bilhete único. |
-| **Administradores e Gestores** | **Marcos** (Coordenador de Ensino)<br>**Ana** (Analista de RH)<br>**Roberto** (Gestor de Operadora)<br>**Fernanda** (Órgão Público) | Profissionais de RH de empresas, secretarias de instituições de ensino, operadoras de transporte e órgãos públicos de mobilidade responsáveis pela gestão, emissão e auditoria dos benefícios de transporte[cite: 1]. |
+| **Administradores e Gestores** | <br>**Ana** (Analista de RH)<br>**Roberto** (Gestor de Operadora)<br>**Fernanda** (Órgão Público) | Profissionais de RH de empresas, secretarias de instituições de ensino, operadoras de transporte e órgãos públicos de mobilidade responsáveis pela gestão, emissão e auditoria dos benefícios de transporte. |
 
 > **Parceiros (Não clientes):** Operadoras de transporte, órgãos públicos e autoridades de mobilidade (como ETUFOR) atuam como parceiros de integração e validação (sem persona no MVP).
 > **Fora do foco inicial:** Usuários ocasionais (créditos avulsos) e vítimas de furto, que entram como público futuro atendido pelas mesmas funções.
@@ -43,28 +43,22 @@ O AccessFlow atende 2 segmentos primários, cada um representado por uma persona
 
 ### Administradores e Gestores:
 
-#### 1. Coordenadores e Secretarias Acadêmicas (Marcos)
-* **Funcional:**
-- Emitir e gerenciar credenciais de benefício estudantil em escala, sem processos manuais;
-- Importar listas de alunos elegíveis em lote por meio de planilhas (CSV/XLSX);
-- Bloquear e encerrar credenciais de alunos evadidos ou com curso trancado em tempo real;
-- Exportar relatórios detalhados de uso e emissões para auditoria da diretoria;
 
-#### 2. Analistas e Gestores de RH (Ana)
+#### 1. Analistas e Gestores de RH (Ana)
 * **Funcional:**
 - Configurar e automatizar a liberação do crédito mensal de vale-transporte por cargo ou grupo;
 - Integrar a gestão de benefícios de transporte diretamente ao sistema de RH da empresa;
 - Reduzir o volume de chamados de suporte sobre perda, saldo ou reemissão de cartões físicos;
 - Fechar e exportar demonstrativos mensais de custos de transporte para o setor financeiro;
 
-#### 3. Gestores de Operadoras de Transporte (Roberto)
+#### 2. Gestores de Operadoras de Transporte (Roberto)
 * **Funcional:**
 - Monitorar o volume e a taxa de sucesso das validações de embarque em tempo real por linha de ônibus;
 - Consultar e exportar o extrato financeiro de comissão gerado pelas recargas da frota;
 - Configurar regras de tarifa e validação alinhadas aos contratos de concessão;
 - Garantir fluidez no embarque e reduzir problemas na catraca enfrentados pelos motoristas;
 
-#### 4. Representantes de Órgãos Públicos e Reguladores (Fernanda)
+#### 3. Representantes de Órgãos Públicos e Reguladores (Fernanda)
 * **Funcional:**
 - Auditar logs de segurança, padrão de uso e tentativas de fraude no sistema de bilhetagem;
 - Acessar relatórios agregados de validação e recarga de todas as operadoras ativas na cidade;
