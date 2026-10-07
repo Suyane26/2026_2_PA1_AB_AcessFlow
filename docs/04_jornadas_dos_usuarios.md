@@ -29,16 +29,7 @@
 3. **Validar embarque por QR Code, já que o celular não tem NFC** — Descrição: Apontar o QR Code Dinâmico para o leitor da catraca. Sentimento: Que bom que não preciso de um celular caro pra usar isso. Touchpoint: Tela: Validar Embarque (QR Code)
 4. **Confirmar que o embarque avulso foi debitado corretamente** — Descrição: Ver o valor descontado no histórico. Sentimento: Tranquila, sei exatamente quanto paguei. Touchpoint: Tela: Início
 
-### Jornada 4: Marcos (Cordenador de Ensino - Administradores e Gestores)
-
-**Objetivo:** Viabilizar manualmente o piloto da instituição no AccessFlow, antes de existir um painel de autoatendimento
-
-1. **Ser apresentado ao AccessFlow por um contato comercial** — Descrição: Reunião para entender como a instituição pode virar piloto. Sentimento: Curioso, mas cético — já vi promessa digital que não emplacou. Touchpoint: Reunião comercial
-2. **Enviar por e-mail uma planilha com a lista de alunos elegíveis** — Descrição: Como o painel ainda não existe, envia a lista para cadastro manual. Sentimento: Espero que isso não vire um vaivém eterno de e-mail. Touchpoint: E-mail (processo manual)
-3. **Validar com uma turma piloto se o cartão virtual funciona** — Descrição: Acompanha um grupo pequeno testando o cadastro e a validação. Sentimento: Preciso ver funcionar antes de indicar pra toda a instituição. Touchpoint: Acompanhamento informal
-4. **Aprovar a expansão do piloto para mais turmas** — Descrição: Com o teste validado, autoriza mais alunos na base. Sentimento: Deu certo, vamos expandir com cautela. Touchpoint: E-mail / reunião
-
-### Jornada 5: Ana (Analista de RH - Administradores e Gestores)
+### Jornada 4: Ana (Analista de RH - Administradores e Gestores)
 
 **Objetivo:** Testar o AccessFlow com um grupo piloto de funcionários antes de decidir migrar todo o vale-transporte
 
@@ -47,7 +38,7 @@
 3. **Acompanhar o piloto de perto pelos primeiros embarques** — Descrição: Pergunta informalmente se a validação está funcionando bem. Sentimento: Quero ouvir a real antes de decidir. Touchpoint: Conversa informal
 4. **Decidir migrar o restante da empresa** — Descrição: Com o piloto validado, autoriza a preparação da migração completa. Sentimento: Convencida, agora é hora de escalar. Touchpoint: Reunião de decisão
 
-### Jornada 6: Roberto (Gestor de Operadora - Administradores e Gestores)
+### Jornada 5: Roberto (Gestor de Operadora - Administradores e Gestores)
 
 **Objetivo:** Autorizar e testar tecnicamente a leitura NFC/QR do AccessFlow nas catracas de uma linha piloto
 
@@ -56,7 +47,7 @@
 3. **Acompanhar os primeiros embarques validados na linha piloto** — Descrição: Recebe relatório manual sobre volume e sucesso das validações. Sentimento: Quero ver os números antes de aprovar mais linhas. Touchpoint: Relatório por e-mail
 4. **Aprovar a expansão para mais linhas da frota** — Descrição: Com o piloto validado, autoriza mais linhas. Sentimento: Funcionou sem travar o embarque, podemos crescer. Touchpoint: Reunião de aprovação
 
-### Jornada 7: Fernanda (Órgão Público - Administradores e Gestores)
+### Jornada 6: Fernanda (Órgão Público - Administradores e Gestores)
 
 **Objetivo:** Entender se o AccessFlow atende às exigências regulatórias antes de autorizar qualquer piloto na cidade
 
@@ -92,15 +83,7 @@
 2. **Recarregar um valor pequeno via cartão de crédito** — Descrição: Escolhe um valor customizado e paga por crédito. Sentimento: Bom ter uma opção que eu já uso no dia a dia. Touchpoint: Tela: Recarregar
 3. **Revisar o extrato para decidir se vale a pena um plano fixo** — Descrição: Olha quanto gastou no mês avulso e compara com um vale fixo. Sentimento: Talvez valha a pena migrar se eu andar mais de ônibus. Touchpoint: Tela: Extrato
 
-### Jornada 4: Marcos (Coordenador de Ensino - Administradores e Gestores)
-
-**Objetivo:** Acompanhar informalmente os primeiros pedidos de bloqueio/recarga da instituição piloto, sem ainda ter um painel de gestão
-
-1. **Receber reclamações pontuais de alunos sobre saldo baixo** — Descrição: Alunos avisam por e-mail/WhatsApp que não sabiam do saldo baixo. Sentimento: Preciso que isso pare de cair no meu colo individualmente. Touchpoint: E-mail / WhatsApp
-2. **Confirmar que o alerta automático de saldo resolveu o problema** — Descrição: Acompanha se os alunos passam a ser avisados automaticamente. Sentimento: Ótimo, isso já tira trabalho de mim. Touchpoint: Feedback informal dos alunos
-3. **Intermediar um pedido de bloqueio por perda de celular** — Descrição: Orienta um aluno a usar o bloqueio remoto pelo próprio app. Sentimento: Bom não precisar mais resolver isso na marra. Touchpoint: Orientação direta ao aluno
-
-### Jornada 5: Ana (Analista de RH -Administradores e Gestores)
+### Jornada 4: Ana (Analista de RH -Administradores e Gestores)
 
 **Objetivo:** Confirmar que a recarga e a segurança do AccessFlow reduzem os chamados internos de RH sobre vale-transporte
 
@@ -108,7 +91,7 @@
 2. **Orientar um funcionário que perdeu o celular a bloquear pelo app** — Descrição: Direciona o funcionário para o bloqueio remoto, sem abrir processo interno. Sentimento: Isso deveria ter existido há anos. Touchpoint: Orientação direta
 3. **Registrar o ganho de tempo do time de RH com o piloto** — Descrição: Anota quantas horas deixaram de ser gastas com pedidos manuais. Sentimento: Já tenho argumento pra levar pra diretoria. Touchpoint: Anotação própria
 
-### Jornada 6: Roberto (Gestor de Operadora - Administradores e Gestores)
+### Jornada 5: Roberto (Gestor de Operadora - Administradores e Gestores)
 
 **Objetivo:** Confirmar que o modo offline e a recarga reduzem falhas de validação reportadas pelos motoristas da linha piloto
 
@@ -116,7 +99,7 @@
 2. **Confirmar que o modo offline evitou travamentos em áreas de sinal fraco** — Descrição: Recebe relatório mostrando validações concluídas sem internet. Sentimento: Isso resolve um problema que eu nem esperava. Touchpoint: Relatório técnico
 3. **Registrar a redução de reclamações de passageiros sobre saldo** — Descrição: Nota menos gente presa na catraca por falta de saldo. Sentimento: Menos gente discutindo com o motorista na catraca. Touchpoint: Observação de campo
 
-### Jornada 7: Fernanda (Órgão Público - Administradores e Gestores)
+### Jornada 6: Fernanda (Órgão Público - Administradores e Gestores)
 
 **Objetivo:** Monitorar se o piloto está gerando dados confiáveis de uso e segurança para embasar uma futura aprovação ampla
 
@@ -127,16 +110,7 @@
 
 ## Fase 3 — Painel Web Institucional e Monetização (Gestão e Escala)
 
-### Jornada 1: Marcos (Coordenador de Ensino - Administradores e Gestores)
-
-**Objetivo:** Usar o painel web para gerenciar as credenciais dos alunos em escala e reduzir o tempo de reemissão
-
-1. **Acessar o dashboard institucional** — Descrição: Ver, em tempo real, quantos alunos já ativaram o cartão virtual. Sentimento: Quero saber se está funcionando antes que alguém reclame comigo. Touchpoint: Painel Web: Dashboard
-2. **Importar a lista de alunos elegíveis do semestre** — Descrição: Subir a planilha para emissão automática dos cartões virtuais. Sentimento: Não posso cadastrar um por um, são centenas de alunos. Touchpoint: Painel Web: Importação de Usuários
-3. **Bloquear e encerrar a credencial de um aluno que trancou o curso** — Descrição: Busca o aluno e encerra o benefício na hora. Sentimento: Preciso resolver isso sem processo de papel. Touchpoint: Painel Web: Gestão de Usuário
-4. **Exportar o relatório de auditoria para a diretoria** — Descrição: Gera relatório de uso e emissões do semestre. Sentimento: Preciso disso pronto quando a diretoria pedir. Touchpoint: Painel Web: Relatórios
-
-### Jornada 2: Ana (Analista de RH - Administradores e Gestores)
+### Jornada 1: Ana (Analista de RH - Administradores e Gestores)
 
 **Objetivo:** Configurar o crédito automático mensal e integrar o AccessFlow ao sistema de RH da empresa
 
@@ -145,7 +119,7 @@
 3. **Acompanhar chamados de bloqueio e reemissão** — Descrição: Vê, num só lugar, quantos funcionários pediram bloqueio no mês. Sentimento: Quero reduzir os e-mails de "perdi meu cartão". Touchpoint: Painel Web: Central de Solicitações
 4. **Fechar o relatório de custo do mês para o financeiro** — Descrição: Exporta o total gasto por funcionário e período. Sentimento: Preciso disso fechado até o dia 5 de cada mês. Touchpoint: Painel Web: Relatórios Financeiros
 
-### Jornada 3: Roberto (Gestor de Operadora - Administradores e Gestores)
+### Jornada 2: Roberto (Gestor de Operadora - Administradores e Gestores)
 
 **Objetivo:** Acompanhar a adoção do AccessFlow entre os passageiros e validar o contrato de comissão sobre recargas
 
@@ -154,7 +128,7 @@
 3. **Configurar regras de tarifa por linha ou horário** — Descrição: Define valores diferentes quando aplicável. Sentimento: Preciso que o sistema respeite as regras da nossa concessão. Touchpoint: Painel Web: Regras de Tarifa
 4. **Assinar o contrato de comissão direto pelo painel** — Descrição: Revisa e confirma os termos do contrato. Sentimento: Se for simples de assinar, fechamos ainda essa semana. Touchpoint: Painel Web: Contratos
 
-### Jornada 4: Fernanda (Órgão Público - Administradores e Gestores)
+### Jornada 3: Fernanda (Órgão Público - Administradores e Gestores)
 
 **Objetivo:** Usar o painel institucional para fiscalizar a conformidade do AccessFlow em escala, antes da aprovação ampla na cidade
 
@@ -162,21 +136,21 @@
 2. **Auditar logs de segurança e tentativas de fraude** — Descrição: Revisa registros de bloqueio e tentativas de validação inválida. Sentimento: Preciso disso documentado pra qualquer questionamento futuro. Touchpoint: Painel Web: Logs de Auditoria
 3. **Emitir parecer favorável à expansão para toda a cidade** — Descrição: Com os dados agregados, formaliza a aprovação regulatória. Sentimento: Os números sustentam a decisão, podemos aprovar. Touchpoint: Painel Web: Relatórios / Documento formal
 
-### Jornada 5: Cynthia (Estudante - Usuários Finais)
+### Jornada 4: Cynthia (Estudante - Usuários Finais)
 
 **Objetivo:** Perceber, como aluna veterana, que o cadastro de calouros agora é automático graças ao painel institucional
 
 1. **Ver colegas calouros já embarcando no primeiro dia de aula** — Descrição: Percebe que os novos alunos já chegam com o cartão ativo. Sentimento: Que inveja boa, eu tive que esperar semanas pra ativar o meu. Touchpoint: Observação no campus
 2. **Usar o extrato para comparar seu histórico de um semestre inteiro** — Descrição: Revisa o extrato consolidado do semestre para planejar o próximo. Sentimento: Agora sim consigo enxergar meu padrão de gasto. Touchpoint: Tela: Extrato
 
-### Jornada 6: Lucas (Trabalhador CLT - Usuários Finais)
+### Jornada 5: Lucas (Trabalhador CLT - Usuários Finais)
 
 **Objetivo:** Perceber que a empresa passou a oferecer autoatendimento completo, sem precisar mais falar com o RH
 
 1. **Notar que o crédito mensal de VT cai automaticamente, sem aviso do RH** — Descrição: Percebe que o valor aparece automaticamente todo mês. Sentimento: Isso já virou rotina, nem penso mais nisso. Touchpoint: Tela: Início
 2. **Resolver uma dúvida sobre o benefício direto pelo app, sem passar pelo RH** — Descrição: Consulta histórico e regras direto no app. Sentimento: Antes eu tinha que mandar e-mail pro RH pra isso. Touchpoint: Tela: Extrato / Perfil
 
-### Jornada 7: Beatriz (Avulsa - Usuários Finais)
+### Jornada 6: Beatriz (Avulsa - Usuários Finais)
 
 **Objetivo:** Perceber que o AccessFlow ganhou mais credibilidade com a adesão de instituições e operadoras
 
