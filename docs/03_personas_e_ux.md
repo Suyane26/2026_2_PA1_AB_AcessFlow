@@ -75,28 +75,21 @@
 * **Motivações:** Comprar passagens instantaneamente via Pix/Cartão e embarcar usando QR Code dinâmico offline com facilidade.
 * **Frase:** *"Só quero comprar minha passagem no Pix e passar na catraca pelo celular sem complicação."*
 
-#### 4. Marcos, o coordenador de ensino que busca agilidade
-* **Perfil:** 35 a 55 anos. Coordenador Acadêmico / Secretaria Escolar.
-* **Contexto:** Responsável por gerenciar as matrículas e a liberação dos benefícios estudantis de centenas de alunos.
-* **Dores:** Filas imensas de alunos na secretaria no início do semestre, processo manual de conferência de dados, demora no cancelamento de ex-alunos.
-* **Motivações:** Importar listas de alunos elegíveis em lote (CSV), emissão 100% digital e cancelamento imediato de benefícios em caso de evasão.
-* **Frase:** *"Precisamos acabar com as filas na secretaria e liberar o passe do estudante no primeiro dia de aula."*
-
-#### 5. Ana, a analista de RH contra cartões perdidos
+#### 4. Ana, a analista de RH contra cartões perdidos
 * **Perfil:** 28 a 48 anos. Analista / Gestora de RH Corporativo[cite: 15].
 * **Contexto:** Gerencia o benefício de vale-transporte de colaboradores via desktop e sistemas de folha de pagamento.
 * **Dores:** Alto volume de chamados por cartões perdidos ou roubados, falta de visibilidade do uso e risco de ex-colaboradores utilizarem créditos após demissão.
 * **Motivações:** Painel de controle simples, cancelamento/bloqueio em 1 clique no momento do desligamento e redução de custos com emissão de plásticos.
 * **Frase:** *"Se alguém é desligado ou perde o cartão, preciso resolver isso em um clique, sem burocracia."*
 
-#### 6. Roberto, o gestor de operadora focado em eficiência
+#### 5. Roberto, o gestor de operadora focado em eficiência
 * **Perfil:** 40 a 60 anos. Gestor de Operações / Bilhetagem em Operadora de Transporte.
 * **Contexto:** Acompanha o desempenho da frota, tempo de viagem e o faturamento das catracas.
 * **Dores:** Gargalos e atrasos no embarque devido a problemas de leitura em cartões físicos, manutenção dispendiosa de validadores e risco de fraudes.
 * **Motivações:** Validação de embarque ultra-rápida, sistema confiável mesmo sem internet nos ônibus e acompanhamento financeiro de recargas e comissões.
 * **Frase:** *"Quanto mais rápido o passageiro passa na catraca, mais pontual e eficiente é toda a nossa frota."*
 
-#### 7. Fernanda, a representante pública focada em transparência
+#### 6. Fernanda, a representante pública focada em transparência
 * **Perfil:** 35 a 55 anos. Gestora em Órgão Regulador / Secretaria de Mobilidade Urbana.
 * **Contexto:** Fiscaliza a concessão de gratuidades, passes estudantis e a correta aplicação dos subsídios de transporte público.
 * **Dores:** Dificuldade em auditar o uso real do benefício, falta de dados integrados das operadoras e riscos de vazamento de dados ou fraudes no passe livre.
